@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 7 Species of Daisies for Your Flower Garden
+=======
+Daisies are a popular choice for gardens
+>>>>>>> e0fa02868dab77ab7038b8e47b5fc1312ac512b9
