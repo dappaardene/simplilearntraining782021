@@ -1,0 +1,1648 @@
+
+Ardenne@Libra MINGW64 ~
+$ pwd
+/c/Users/Ardenne
+
+Ardenne@Libra MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Ardenne@Libra MINGW64 ~
+$ cd S:
+
+Ardenne@Libra MINGW64 /s
+$ ls
+'$RECYCLE.BIN'/                    PDF/
+ Applications/                    'Past Courses'/
+'Cloud Engineer'/                 'PowerShell Lab'/
+'D Drive'/                         Recovery/
+ Devop/                           'SQL Server'/
+ FileHistory/                     'Skill test'/
+ FileServer/                      'Software installation'/
+'Infrastructure Knowledge base'/  'System Volume Information'/
+ Labs/                            'Visual Studio Lab'/
+ Linux/                            Windows/
+ Microsoft/                        devopgitrepositorygit/
+'Microsoft 365'/                   usr/
+'Operating Systems'/
+
+Ardenne@Libra MINGW64 /s
+$ cd devop
+
+Ardenne@Libra MINGW64 /s/devop
+$ ls
+Ansible/  Chef/  Devops/  Docker/  Edureka/  Git/  PDF/  Scrum/  Skills/
+
+Ardenne@Libra MINGW64 /s/devop
+$ cd git
+
+Ardenne@Libra MINGW64 /s/devop/git
+$ cd repository
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ git status
+On branch department
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        school/address.txt
+        school/dancing.class
+        school/englsih.txt
+        school/information.html
+        school/information.txt
+        school/music.text
+        school/science.txt
+        school/townname.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git
+$ ls
+Project/  Repository/
+
+Ardenne@Libra MINGW64 /s/devop/git
+$ cd project
+
+Ardenne@Libra MINGW64 /s/devop/git/project
+$ ls
+'School web page.txt'
+
+Ardenne@Libra MINGW64 /s/devop/git/project
+$ cd "school web page.txt"
+bash: cd: school web page.txt: Not a directory
+
+Ardenne@Libra MINGW64 /s/devop/git/project
+$ ls
+'School web page.txt'
+
+Ardenne@Libra MINGW64 /s/devop/git/project
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Ardenne@Libra MINGW64 /s/devop/git/project
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Ardenne@Libra MINGW64 /s/devop/git/project
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Ardenne@Libra MINGW64 /s/devop/git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Ardenne@Libra MINGW64 /s/devop/git
+$ ls -l
+total 4
+drwxr-xr-x 1 Ardenne 197121 0 May 18 23:40 Project/
+drwxr-xr-x 1 Ardenne 197121 0 May 18 23:43 Repository/
+
+Ardenne@Libra MINGW64 /s/devop/git
+$ cd repository
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ git status
+On branch department
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        school/address.txt
+        school/dancing.class
+        school/englsih.txt
+        school/information.html
+        school/information.txt
+        school/music.text
+        school/science.txt
+        school/townname.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git
+$ git init
+Initialized empty Git repository in S:/Devop/Git/.git/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls -la
+total 12
+drwxr-xr-x 1 Ardenne 197121 0 Jul  8 21:03 ./
+drwxr-xr-x 1 Ardenne 197121 0 May 24 23:21 ../
+drwxr-xr-x 1 Ardenne 197121 0 Jul  8 21:04 .git/
+drwxr-xr-x 1 Ardenne 197121 0 May 18 23:40 Project/
+drwxr-xr-x 1 Ardenne 197121 0 May 18 23:43 Repository/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ mkdir garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ mkdir fruits
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ mkdir vegetables
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ mkdir flowers
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls -la
+total 0
+drwxr-xr-x 1 Ardenne 197121 0 Jul  8 21:13 ./
+drwxr-xr-x 1 Ardenne 197121 0 Jul  8 21:12 ../
+drwxr-xr-x 1 Ardenne 197121 0 Jul  8 21:13 flowers/
+drwxr-xr-x 1 Ardenne 197121 0 Jul  8 21:13 fruits/
+drwxr-xr-x 1 Ardenne 197121 0 Jul  8 21:13 vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd flowers
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ ls
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ touch daisy.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ touch lavender.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ touch rose.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ poppy.txt
+bash: poppy.txt: command not found
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ hibiscus.txt
+bash: hibiscus.txt: command not found
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ touch 'water lili.txt'
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ touch lotus.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ ls
+ daisy.txt   lavender.txt   lotus.txt   rose.txt  'water lili.txt'
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../Project/
+        ../Repository/
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ pwd
+/s/devop/git/garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+        garden/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   garden/flowers/daisy.txt
+        new file:   garden/flowers/lavender.txt
+        new file:   garden/flowers/lotus.txt
+        new file:   garden/flowers/rose.txt
+        new file:   garden/flowers/water lili.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit garden
+hint: Waiting for your editor to close the file... 'S:\Devop\Git\Repository': S:\Devop\Git\Repository: Is a directory
+error: There was a problem with the editor ''S:\Devop\Git\Repository''.
+Please supply the message using either -m or -F option.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -m garden'this is my garden'
+[master (root-commit) 7509ae9] gardenthis is my garden
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 garden/flowers/daisy.txt
+ create mode 100644 garden/flowers/lavender.txt
+ create mode 100644 garden/flowers/lotus.txt
+ create mode 100644 garden/flowers/rose.txt
+ create mode 100644 garden/flowers/water lili.txt
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log
+commit 7509ae9e5e295460b465138a64150e4b0eb3123f (HEAD -> master)
+Author: Devop Engineer <dappaardenne@gmail.com>
+Date:   Thu Jul 8 21:24:36 2021 -0400
+
+    gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls -lrt
+total 4
+drwxr-xr-x 1 Ardenne 197121 0 May 18 23:40 Project/
+drwxr-xr-x 1 Ardenne 197121 0 May 18 23:43 Repository/
+drwxr-xr-x 1 Ardenne 197121 0 Jul  8 21:13 garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd fruits
+bash: cd: fruits: No such file or directory
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd fruits
+bash: cd: fruits: No such file or directory
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd fruits
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ touch cherry.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ touch fig.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../Project/
+        ../../Repository/
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../Project/
+        ../Repository/
+        fruits/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git add garden
+fatal: pathspec 'garden' did not match any files
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git add fruits
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+index e69de29..8408744 100644
+--- a/garden/fruits/fig.txt
++++ b/garden/fruits/fig.txt
+@@ -0,0 +1 @@
++This fruit is grown in the middle east
+\ No newline at end of file
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff-staged
+git: 'diff-staged' is not a git command. See 'git --help'.
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff -staged
+error: invalid option: -staged
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+index e69de29..8408744 100644
+--- a/garden/fruits/fig.txt
++++ b/garden/fruits/fig.txt
+@@ -0,0 +1 @@
++This fruit is grown in the middle east
+\ No newline at end of file
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ diff --git
+diff: unknown option -- git
+diff: Try 'diff --help' for more information.
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   fruits/cherry.txt
+        new file:   fruits/fig.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   fruits/fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../Project/
+        ../Repository/
+
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff garden
+fatal: ambiguous argument 'garden': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff fruits
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+index e69de29..8408744 100644
+--- a/garden/fruits/fig.txt
++++ b/garden/fruits/fig.txt
+@@ -0,0 +1 @@
++This fruit is grown in the middle east
+\ No newline at end of file
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff fruits
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+index e69de29..9a6c212 100644
+--- a/garden/fruits/fig.txt
++++ b/garden/fruits/fig.txt
+@@ -0,0 +1 @@
++The word fig, first recorded in English in the 13th century, derives from (Old) French figue, itself from Occitan (Proven<E7>al) figa, from Romance *fica, from Classical Latin ficus (fig or fig-tree).[7] Italian has fico, directly derived from Latin ficus. The name of the caprifig, Ficus caprificus Risso, is derived both from Latin capro (billygoat) and English fig.[8]
+\ No newline at end of file
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff fruits
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+index e69de29..26817fa 100644
+--- a/garden/fruits/fig.txt
++++ b/garden/fruits/fig.txt
+@@ -0,0 +1,13 @@
++The word fig, first recorded in English in the 13th century, derives from (Old) French figue,
++itself from Occitan (Proven<E7>al) figa, from Romance *fica, from Classical Latin ficus (fig or fig-tree).
++[7] Italian has fico, directly derived from Latin ficus. The name of the caprifig, Ficus caprificus Risso,
++is derived both from Latin capro (billygoat) and English fig.[8]
++
++The fig fruit develops as a hollow, fleshy structure called the syconium that is lined internally with numerous unisexual
++flowers. The tiny flowers bloom inside this cup-like structure. Although commonly called a fruit,
++the syconium is botanically an infructescence, a type of multiple fruit. The small fig flowers and later small
++single-seeded (true) fruits line its interior surface. A small opening or ostiole, visible on the middle of the fruit,
++is a narrow passage that allows the specialized fig wasp, Blastophaga psenes to enter the inflorescence and pollinate the
++flowers, after which each fertilized ovule (one per flower, in its ovary) develops into a seed.
++ At maturity, these 'seeds' (actually single-seeded fruits) line the inside of each fig. See Ficus:
++Fig fruit and reproduction system.
+\ No newline at end of file
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff fruits
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+index e69de29..fe17d67 100644
+--- a/garden/fruits/fig.txt
++++ b/garden/fruits/fig.txt
+@@ -0,0 +1,12 @@
++The word fig, first recorded in English in the 13th century, derives from (Old) French figue,
++itself from Occitan (Proven<E7>al) figa, from Romance *fica, from Classical Latin ficus (fig or fig-tree).
++
++
++The fig fruit develops as a hollow, fleshy structure called the syconium that is lined internally with numerous unisexual
++flowers. The tiny flowers bloom inside this cup-like structure. Although commonly called a fruit,
++the syconium is botanically an infructescence, a type of multiple fruit. The small fig flowers and later small
++single-seeded (true) fruits line its interior surface. A small opening or ostiole, visible on the middle of the fruit,
++is a narrow passage that allows the specialized fig wasp, Blastophaga psenes to enter the inflorescence and pollinate the
++flowers, after which each fertilized ovule (one per flower, in its ovary) develops into a seed.
++ At maturity, these 'seeds' (actually single-seeded fruits) line the inside of each fig. See Ficus:
++Fig fruit and reproduction system.
+\ No newline at end of file
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff --staged
+diff --git a/garden/fruits/cherry.txt b/garden/fruits/cherry.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+new file mode 100644
+index 0000000..e69de29
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git commit fruits
+hint: Waiting for your editor to close the file... 'S:\Devop\Git\Repository': S:\Devop\Git\Repository: Is a directory
+error: There was a problem with the editor ''S:\Devop\Git\Repository''.
+Please supply the message using either -m or -F option.
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git commit -m "this is some really good fruits"
+[master 2e77a56] this is some really good fruits
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 garden/fruits/cherry.txt
+ create mode 100644 garden/fruits/fig.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git log
+commit 2e77a56c0a94793472f659d5a7f605b144072729 (HEAD -> master)
+Author: Devop Engineer <dappaardenne@gmail.com>
+Date:   Thu Jul 8 22:03:16 2021 -0400
+
+    this is some really good fruits
+
+commit 7509ae9e5e295460b465138a64150e4b0eb3123f
+Author: Devop Engineer <dappaardenne@gmail.com>
+Date:   Thu Jul 8 21:24:36 2021 -0400
+
+    gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff --staged head
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git log
+commit 2e77a56c0a94793472f659d5a7f605b144072729 (HEAD -> master)
+Author: Devop Engineer <dappaardenne@gmail.com>
+Date:   Thu Jul 8 22:03:16 2021 -0400
+
+    this is some really good fruits
+
+commit 7509ae9e5e295460b465138a64150e4b0eb3123f
+Author: Devop Engineer <dappaardenne@gmail.com>
+Date:   Thu Jul 8 21:24:36 2021 -0400
+
+    gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   fruits/fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../Project/
+        ../Repository/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git add fruits
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git head --staged head
+git: 'head' is not a git command. See 'git --help'.
+
+The most similar command is
+        help
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff --staged head
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+index e69de29..fe17d67 100644
+--- a/garden/fruits/fig.txt
++++ b/garden/fruits/fig.txt
+@@ -0,0 +1,12 @@
++The word fig, first recorded in English in the 13th century, derives from (Old) French figue,
++itself from Occitan (Proven<E7>al) figa, from Romance *fica, from Classical Latin ficus (fig or fig-tree).
++
++
++The fig fruit develops as a hollow, fleshy structure called the syconium that is lined internally with numerous unisexual
++flowers. The tiny flowers bloom inside this cup-like structure. Although commonly called a fruit,
++the syconium is botanically an infructescence, a type of multiple fruit. The small fig flowers and later small
++single-seeded (true) fruits line its interior surface. A small opening or ostiole, visible on the middle of the fruit,
++is a narrow passage that allows the specialized fig wasp, Blastophaga psenes to enter the inflorescence and pollinate the
++flowers, after which each fertilized ovule (one per flower, in its ovary) develops into a seed.
++ At maturity, these 'seeds' (actually single-seeded fruits) line the inside of each fig. See Ficus:
++Fig fruit and reproduction system.
+\ No newline at end of file
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ git diff --staged head~1
+diff --git a/garden/fruits/cherry.txt b/garden/fruits/cherry.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/garden/fruits/fig.txt b/garden/fruits/fig.txt
+new file mode 100644
+index 0000000..fe17d67
+--- /dev/null
++++ b/garden/fruits/fig.txt
+@@ -0,0 +1,12 @@
++The word fig, first recorded in English in the 13th century, derives from (Old) French figue,
++itself from Occitan (Proven<E7>al) figa, from Romance *fica, from Classical Latin ficus (fig or fig-tree).
++
++
++The fig fruit develops as a hollow, fleshy structure called the syconium that is lined internally with numerous unisexual
++flowers. The tiny flowers bloom inside this cup-like structure. Although commonly called a fruit,
++the syconium is botanically an infructescence, a type of multiple fruit. The small fig flowers and later small
++single-seeded (true) fruits line its interior surface. A small opening or ostiole, visible on the middle of the fruit,
++is a narrow passage that allows the specialized fig wasp, Blastophaga psenes to enter the inflorescence and pollinate the
++flowers, after which each fertilized ovule (one per flower, in its ovary) develops into a seed.
++ At maturity, these 'seeds' (actually single-seeded fruits) line the inside of each fig. See Ficus:
++Fig fruit and reproduction system.
+\ No newline at end of file
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd fruits
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ ls
+cherry.txt  fig.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ touch berry.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ ls
+berry.txt  cherry.txt  fig.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git checkout cherry.txt
+Updated 0 paths from the index
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../Project/
+        ../../Repository/
+        berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=S:/Visual Studio Lab/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+gui.recentrepo=S:/Devop/Git/Repository
+user.name=Devop Engineer
+user.email=dappaardenne@gmail.com
+username.email=dappaardenne@gmail.com
+color.ui=auto
+core.editor='S:\Devop\Git\Repository'
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git remote add origin https://github.com/dappaardene/simplilearntraining782021.git
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git remote -v
+origin  https://github.com/dappaardene/simplilearntraining782021.git (fetch)
+origin  https://github.com/dappaardene/simplilearntraining782021.git (push)
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 32 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 694 bytes | 231.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dappaardene/simplilearntraining782021.git
+ * [new branch]      master -> master
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../Project/
+        ../../Repository/
+        berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key S:\Devop\Devops\Public Key
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Saving key "\033[S:\\Devop\\Devops\\Public Key" failed: No such file or directory
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../Project/
+        ../../Repository/
+        berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/fruits (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   garden/fruits/fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+        garden/fruits/berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   garden/fruits/fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+        garden/fruits/berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin master
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 762 bytes | 7.00 KiB/s, done.
+From https://github.com/dappaardene/simplilearntraining782021
+ * branch            master     -> FETCH_HEAD
+   2e77a56..af18de5  master     -> origin/master
+Updating 2e77a56..af18de5
+Fast-forward
+ garden/Spice | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 garden/Spice
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   garden/fruits/fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+        garden/fruits/berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log --oneline
+af18de5 (HEAD -> master, origin/master) Create Spice
+2e77a56 this is some really good fruits
+7509ae9 gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   garden/fruits/fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+        garden/fruits/berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+Spice  flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   garden/fruits/fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project/
+        Repository/
+        garden/fruits/berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log --oneliner
+fatal: unrecognized argument: --oneliner
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log --oneline
+af18de5 (HEAD -> master, origin/master) Create Spice
+2e77a56 this is some really good fruits
+7509ae9 gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin master
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (10/10), 1.60 KiB | 5.00 KiB/s, done.
+From https://github.com/dappaardene/simplilearntraining782021
+ * branch            master     -> FETCH_HEAD
+   af18de5..38a71a1  master     -> origin/master
+Updating af18de5..38a71a1
+Fast-forward
+ garden/flowers/lavender.txt | 1 +
+ garden/flowers/rose.txt     | 1 +
+ 2 files changed, 2 insertions(+)
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cat rose.txt
+cat: rose.txt: No such file or directory
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cat garden/rose.txt
+cat: garden/rose.txt: No such file or directory
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+Spice  flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd flowers
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ ls
+ daisy.txt   lavender.txt   lotus.txt   rose.txt  'water lili.txt'
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ cat rose.txt
+Roses are red violets are blue
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ vi rose.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   ../fruits/fig.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   rose.txt
+        modified:   water lili.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../Project/
+        ../../Repository/
+        ../fruits/berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ git add .
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   rose.txt
+        modified:   water lili.txt
+        modified:   ../fruits/fig.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../Project/
+        ../../Repository/
+        ../fruits/berry.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add .
+warning: adding embedded git repository: Repository
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Repository
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Repository
+hint:
+hint: See "git help submodule" for more information.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Project/School web page.txt
+        new file:   Repository
+        modified:   garden/flowers/rose.txt
+        modified:   garden/flowers/water lili.txt
+        new file:   garden/fruits/berry.txt
+        modified:   garden/fruits/fig.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (untracked content)
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -m 'my awesome commit'
+[master 9bbd262] my awesome commit
+ 6 files changed, 16 insertions(+)
+ create mode 100644 Project/School web page.txt
+ create mode 160000 Repository
+ create mode 100644 garden/fruits/berry.txt
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add .
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$  git log --oneline
+9bbd262 (HEAD -> master) my awesome commit
+38a71a1 (origin/master) Update lavender.txt
+824e23d Update rose.txt
+af18de5 Create Spice
+2e77a56 this is some really good fruits
+7509ae9 gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git push origin master
+To https://github.com/dappaardene/simplilearntraining782021.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/dappaardene/simplilearntraining782021.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 927 bytes | 6.00 KiB/s, done.
+From https://github.com/dappaardene/simplilearntraining782021
+   38a71a1..a2fb9ff  master     -> origin/master
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git push origin master
+To https://github.com/dappaardene/simplilearntraining782021.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/dappaardene/simplilearntraining782021.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin simplilearntraining782021
+fatal: couldn't find remote ref simplilearntraining782021
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin simplilearntraining782021dappaardene
+fatal: couldn't find remote ref dappaardene
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ /
+bash: /: Is a directory
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ simplilearntraining782021
+bash: simplilearntraining782021: command not found
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add .
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add respository
+fatal: pathspec 'respository' did not match any files
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add repository
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$  git commit -m 'repository'
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log --oneline
+9bbd262 (HEAD -> master) my awesome commit
+38a71a1 Update lavender.txt
+824e23d Update rose.txt
+af18de5 Create Spice
+2e77a56 this is some really good fruits
+7509ae9 gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add .
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd repository
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ git add .
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ git status
+On branch department
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   school/address.txt
+        new file:   school/dancing.class
+        new file:   school/englsih.txt
+        new file:   school/information.html
+        new file:   school/information.txt
+        new file:   school/music.text
+        new file:   school/science.txt
+        new file:   school/townname.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -m 'school'
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Repository (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -a 'school'
+fatal: paths 'school ...' with -a does not make sense
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd repository
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ git commit -a
+hint: Waiting for your editor to close the file... 'S:\Devop\Git\Repository': S:\Devop\Git\Repository: Is a directory
+error: There was a problem with the editor ''S:\Devop\Git\Repository''.
+Please supply the message using either -m or -F option.
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ git commit -a 'school'
+fatal: paths 'school ...' with -a does not make sense
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ git commit -m 'school'
+[department 234f761] school
+ 8 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 school/address.txt
+ create mode 100644 school/dancing.class
+ create mode 100644 school/englsih.txt
+ create mode 100644 school/information.html
+ create mode 100644 school/information.txt
+ create mode 100644 school/music.text
+ create mode 100644 school/science.txt
+ create mode 100644 school/townname.txt
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ git status
+On branch department
+nothing to commit, working tree clean
+
+Ardenne@Libra MINGW64 /s/devop/git/repository (department)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Repository (new commits)
+        modified:   garden/flowers/rose.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -m 'roses'
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Repository (new commits)
+        modified:   garden/flowers/rose.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -m garden/flowers/roses.txt 'roses'
+error: pathspec 'roses' did not match any file(s) known to git
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit  garden/flowers/roses.txt -m'roses'
+error: pathspec 'garden/flowers/roses.txt' did not match any file(s) known to git
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ ls
+Project/  Repository/  garden/
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ cd garden
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ ls
+Spice  flowers/  fruits/  vegetables/
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd flowers
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ ls
+ daisy.txt   lavender.txt   lotus.txt   rose.txt  'water lili.txt'
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ git commit -m 'roses'
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../Repository (new commits)
+        modified:   rose.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ git add .
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ git commit -m 'roses'
+[master 12dd183] roses
+ 1 file changed, 1 insertion(+)
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../Repository (new commits)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git/garden/flowers (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git/garden (master)
+$ cd ..
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add .
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -m 'repository'
+[master c1cacb0] repository
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log -oneline
+fatal: unrecognized argument: -oneline
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log --oneline
+c1cacb0 (HEAD -> master) repository
+12dd183 roses
+9bbd262 my awesome commit
+38a71a1 Update lavender.txt
+824e23d Update rose.txt
+af18de5 Create Spice
+2e77a56 this is some really good fruits
+7509ae9 gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ push origin master
+bash: push: command not found
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git push orifin master
+fatal: 'orifin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git origin master
+git: 'origin' is not a git command. See 'git --help'.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git push origin master
+To https://github.com/dappaardene/simplilearntraining782021.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/dappaardene/simplilearntraining782021.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 846 bytes | 5.00 KiB/s, done.
+From https://github.com/dappaardene/simplilearntraining782021
+ * branch            master     -> FETCH_HEAD
+   a2fb9ff..e0fa028  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        garden/flowers/daisy.txt
+Please commit your changes or stash them before you merge.
+Aborting
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -m 'garden'
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   garden/flowers/daisy.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git add garden/flowers/daisy.txt
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   garden/flowers/daisy.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git commit -m 'daisy'
+[master 11aa034] daisy
+ 1 file changed, 1 insertion(+)
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin master
+From https://github.com/dappaardene/simplilearntraining782021
+ * branch            master     -> FETCH_HEAD
+Auto-merging garden/flowers/daisy.txt
+CONFLICT (content): Merge conflict in garden/flowers/daisy.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Ardenne@Libra MINGW64 /s/devop/git (master|MERGING)
+$ git push origin master
+To https://github.com/dappaardene/simplilearntraining782021.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/dappaardene/simplilearntraining782021.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Ardenne@Libra MINGW64 /s/devop/git (master|MERGING)
+$ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        modified:   garden/flowers/lavender.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   garden/flowers/daisy.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master|MERGING)
+$ git add garden/flowers/daisy.txt
+warning: LF will be replaced by CRLF in garden/flowers/daisy.txt.
+The file will have its original line endings in your working directory
+
+Ardenne@Libra MINGW64 /s/devop/git (master|MERGING)
+$ git status
+On branch master
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   garden/flowers/daisy.txt
+        modified:   garden/flowers/lavender.txt
+
+
+Ardenne@Libra MINGW64 /s/devop/git (master|MERGING)
+$ git pull origin master
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+Ardenne@Libra MINGW64 /s/devop/git (master|MERGING)
+$ git push origin master
+To https://github.com/dappaardene/simplilearntraining782021.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/dappaardene/simplilearntraining782021.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Ardenne@Libra MINGW64 /s/devop/git (master|MERGING)
+$ git pull origin master
+error: You have not concluded your merge (MERGE_HEAD exists).
+hint: Please, commit your changes before merging.
+fatal: Exiting because of unfinished merge.
+
+Ardenne@Libra MINGW64 /s/devop/git (master|MERGING)
+$ git commit -m 'garden'
+[master cd34c62] garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin master
+From https://github.com/dappaardene/simplilearntraining782021
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git push origin master
+Enumerating objects: 43, done.
+Counting objects: 100% (37/37), done.
+Delta compression using up to 32 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (27/27), 3.06 KiB | 391.00 KiB/s, done.
+Total 27 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/dappaardene/simplilearntraining782021.git
+   e0fa028..cd34c62  master -> master
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git log --oneline
+cd34c62 (HEAD -> master, origin/master) garden
+11aa034 daisy
+e0fa028 Update daisy.txt
+c1cacb0 repository
+12dd183 roses
+9bbd262 my awesome commit
+a2fb9ff Update lavender.txt
+38a71a1 Update lavender.txt
+824e23d Update rose.txt
+af18de5 Create Spice
+2e77a56 this is some really good fruits
+7509ae9 gardenthis is my garden
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git push origin master
+Everything up-to-date
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$ git pull origin master
+From https://github.com/dappaardene/simplilearntraining782021
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Ardenne@Libra MINGW64 /s/devop/git (master)
+$

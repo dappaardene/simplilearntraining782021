@@ -1,0 +1,460 @@
+
+Ardenne@Libra MINGW64 ~
+$ vim first.tf
+
+Ardenne@Libra MINGW64 ~
+$ vim first.tf
+
+Ardenne@Libra MINGW64 ~
+$ history
+    1  test
+    2  git status
+    3  pwd
+    4  ls
+    5  pwd
+    6  git --version
+    7  cd s
+    8  cd s:
+    9  ls
+   10  pwd
+   11  ls
+   12  cd 'Cloud Engineer'
+   13  pwd
+   14  ls
+   15  cd ..
+   16  ls
+   17  cd Devop
+   18  ls
+   19  cd Git
+   20  ls
+   21  cd respository
+   22  cd Repository
+   23  mkdir university
+   24  touch student.txt
+   25  ls
+   26  git-add
+   27  git add
+   28  git -add
+   29  git add student.txt
+   30  git status
+   31  mkdir university
+   32  ls
+   33  cd university
+   34  ls
+   35  touch music.txt
+   36  touch language.txt
+   37  git add music.txt
+   38  cd ..
+   39  git status
+   40  pwd
+   41  ls
+   42  git add university/language.txt
+   43  git status
+   44  git commit
+   45  git commit -m
+   46  git commit -a
+   47  git diff
+   48  touch french.txt
+   49  git diff
+   50  history
+   51  sudo -i
+   52  sudo -i
+   53  git ls-files
+   54  git commit "My file"
+   55  git log
+   56  git commit "Test"
+   57  git commit -m "Test"
+   58  vim test.txt
+   59  chmod 400 aws_newkey2.pem
+   60  mkdir git
+   61  ls
+   62  mkdir
+   63  mkdir
+   64  mkdir s:\devop\git\repository\git
+   65  cd s:devop\git\repository\git
+   66  ls
+   67  git init
+   68  git init s:\devop\git\repository\git
+   69  ls
+   70  git status
+   71  mkdir myprojectDir
+   72  cd myprojectdir
+   73  ls
+   74  ls-ls
+   75  ls -ls
+   76  git init
+   77  ls -la
+   78  git status
+   79  ls -lrt
+   80  pwd
+   81  mkdir test
+   82  ls
+   83  git init newprojectdir
+   84  pwd
+   85  cd newprojectdir
+   86  ls
+   87  cd ..
+   88  touch index.html
+   89  touch saturn
+   90  touch saturn.txt
+   91  touch mars.txt
+   92  ls
+   93  git status
+   94  git add
+   95  git add .
+   96  git add .
+   97  git status
+   98  git add index.html
+   99  git add mars.txt,saturn,saturn.txt
+  100  git add mars.txt
+  101  git status
+  102  git add saturn
+  103  git status
+  104  git commit -m "initial version"
+  105  git commit -m
+  106  git commit -m "initial version"
+  107  git config --global dappaardenne@gmail.com
+  108  git commit
+  109  git commit
+  110  git config dappaardenne@gmail.com
+  111  git status
+  112  pwd
+  113  ls
+  114  cd ..
+  115  git clone https://github.com/dappaardene/dappaardene.git
+  116  git remote -v
+  117  git remote add origin https://github.com/dappaardene/dappaardene.git
+  118  git remote -v
+  119  git status
+  120  git branch
+  121  pwd
+  122  git log
+  123  docker -version
+  124  docker ps
+  125  docker run it ubuntu
+  126  docker run -it ubuntu
+  127  docker -it ubuntu
+  128  docker -it ubuntu
+  129  docker run -it ubuntu
+  130  docker ps
+  131  docker run ubuntu
+  132  docker run it ubuntulab ubuntu
+  133  docker run ubuntu
+  134  docker ps
+  135  #!/bin/bash
+  136  useradd jenkins -m
+  137  docker run   -u jenkins   --rm   -d   -p 8080:8080   -p 50000:50000   -v /var/run/docker.sock:/var/run/docker.sock   -v /home/jenkins:/var/jenkins_home   jenkins/jenkins:lts
+  138  cat /home/jenkins/secrets/initialAdminPassword
+  139  pwd
+  140  docker start ubuntulab
+  141  docker attach ubuntulab
+  142  docker attach ubuntulab
+  143  docker attached ubuntulab
+  144  docker pull jenkins/jenkins:lts
+  145  list images
+  146  docker images
+  147  docker images
+  148  docker ps
+  149  docker start
+  150  docker run
+  151  pwd
+  152  cd S
+  153  cd S:
+  154  pwd
+  155  ls
+  156  cd devop
+  157  ls
+  158  cd git
+  159  ls
+  160  cd project
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd repository
+  165  ls
+  166  git diff
+  167  git --version
+  168  git commit -m "initial version"
+  169  pwd
+  170  S:
+  171  S:
+  172  cd S:
+  173  pwd
+  174  ls
+  175  cd "devop"
+  176  ls
+  177  cd git
+  178  ls
+  179  git commit -m "initial version"
+  180  cd project
+  181  git commit -m "initial version"
+  182  ls
+  183  cd ..
+  184  ls
+  185  git commit -m "initial version"
+  186  git config --global user.name "Devop Engineer"
+  187  git config --global user.email "dappaardenne@gmail.com"
+  188  ls
+  189  cd repository
+  190  ls
+  191  cd ..
+  192  git branch -m master default
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd git
+  197  ls
+  198  cd repository
+  199  git branch -m master default
+  200  git connit -m "initial version"
+  201  git commit "initial version"
+  202  git config --global user.name"devop Engineer"
+  203  git config --global user.name "Devop Engineer"
+  204  git config --global username.email "dappaardenne@gmail.com"
+  205  git commit -m "initial version"
+  206  git config -global color.ui "auto"
+  207  git config --global color.ui "auto"
+  208  git config --global core.editor "'S:\Devop\Git\Repository'"
+  209  git config --list
+  210  pwd
+  211  git status
+  212  cd S:
+  213  ls
+  214  cd devop
+  215  ls
+  216  cd git
+  217  cd repository
+  218  git status
+  219  cd ..
+  220  ls
+  221  cd project
+  222  ls
+  223  cd "school web page.txt"
+  224  ls
+  225  git status
+  226  git status
+  227  cd ..
+  228  git status
+  229  git status
+  230  ls -l
+  231  cd repository
+  232  git status
+  233  cd ..
+  234  git init
+  235  git status
+  236  git status
+  237  ls -la
+  238  git status
+  239  mkdir garden
+  240  cd garden
+  241  ls
+  242  mkdir fruits
+  243  mkdir vegetables
+  244  mkdir flowers
+  245  ls
+  246  ls -la
+  247  cd ..
+  248  git log
+  249  ls
+  250  cd garden
+  251  ls
+  252  cd flowers
+  253  ls
+  254  touch daisy.txt
+  255  touch lavender.txt
+  256  touch rose.txt
+  257  poppy.txt
+  258  hibiscus.txt
+  259  touch 'water lili.txt'
+  260  touch lotus.txt
+  261  ls
+  262  cd ..
+  263  git status
+  264  pwd
+  265  cd ..
+  266  git status
+  267  git add garden
+  268  git status
+  269  git commit garden
+  270  git commit -m garden'this is my garden'
+  271  git status
+  272  git log
+  273  ls -lrt
+  274  ls
+  275  cd garden
+  276  ls
+  277  cd ..
+  278  cd fruits
+  279  cd fruits
+  280  ls
+  281  cd garden
+  282  cd fruits
+  283  touch cherry.txt
+  284  touch fig.txt
+  285  git status
+  286  cd ..
+  287  git status
+  288  git add garden
+  289  ls
+  290  git add fruits
+  291  git diff
+  292  git diff-staged
+  293  git diff -staged
+  294  git diff
+  295  diff --git
+  296  git status
+  297  git diff garden
+  298  ls
+  299  git diff fruits
+  300  git diff fruits
+  301  git diff fruits
+  302  git diff fruits
+  303  git diff --staged
+  304  git commit fruits
+  305  git commit -m "this is some really good fruits"
+  306  git log
+  307  git diff --staged head
+  308  git log
+  309  git status
+  310  git add fruits
+  311  git diff
+  312  git head --staged head
+  313  git diff --staged head
+  314  git diff --staged head~1
+  315  ls
+  316  cd fruits
+  317  ls
+  318  touch berry.txt
+  319  ls
+  320  git checkout cherry.txt
+  321  git status
+  322  git config -l
+  323  git remote add origin https://github.com/dappaardene/simplilearntraining782021.git
+  324  git remote -v
+  325  git push origin master
+  326  git status
+  327  ssh-keygen
+  328  git status
+  329  cd ..
+  330  ls
+  331  cd ..
+  332  ls
+  333  ls
+  334  git status
+  335  git status
+  336  git pull origin master
+  337  git status
+  338  git log --oneline
+  339  git status
+  340  ls
+  341  cd garden
+  342  ls
+  343  cd ..
+  344  ls
+  345  git status
+  346  git log --oneliner
+  347  git log --oneline
+  348  git pull origin master
+  349  cat rose.txt
+  350  cat garden/rose.txt
+  351  ls
+  352  cd garden
+  353  ls
+  354  cd flowers
+  355  ls
+  356  cat rose.txt
+  357  vi rose.txt
+  358  git status
+  359  git add .
+  360  git status
+  361  cd ..
+  362  cd ..
+  363  git add .
+  364  git status
+  365  git commit -m 'my awesome commit'
+  366  git status
+  367  git add .
+  368  git status
+  369   git log --oneline
+  370  git push origin master
+  371  git pull origin
+  372  git status
+  373  git push origin master
+  374  git pull origin simplilearntraining782021
+  375  git pull origin dappaardene
+  376  /
+  377  simplilearntraining782021
+  378  git status
+  379  git add .
+  380  git add respository
+  381  git add repository
+  382  git status
+  383  git status
+  384   git commit -m 'repository'
+  385  git log --oneline
+  386  ls
+  387  git add .
+  388  cd repository
+  389  git add .
+  390  git status
+  391  cd ..
+  392  git status
+  393  git commit -m 'school'
+  394  git commit -a 'school'
+  395  cd repository
+  396  git commit -a
+  397  git commit -a 'school'
+  398  git commit -m 'school'
+  399  git status
+  400  cd ..
+  401  git status
+  402  git commit -m 'roses'
+  403  git commit -m garden/flowers/roses.txt 'roses'
+  404  git commit  garden/flowers/roses.txt -m'roses'
+  405  ls
+  406  cd garden
+  407  ls
+  408  cd flowers
+  409  ls
+  410  git commit -m 'roses'
+  411  git add .
+  412  git commit -m 'roses'
+  413  git status
+  414  cd ..
+  415  cd ..
+  416  git add .
+  417  git commit -m 'repository'
+  418  git status
+  419  git log -oneline
+  420  git log --oneline
+  421  push origin master
+  422  git push orifin master
+  423  git origin master
+  424  git push origin master
+  425  git pull origin master
+  426  git commit -m 'garden'
+  427  git add garden/flowers/daisy.txt
+  428  git status
+  429  git commit -m 'daisy'
+  430  git pull origin master
+  431  git push origin master
+  432  git status
+  433  git add garden/flowers/daisy.txt
+  434  git status
+  435  git pull origin master
+  436  git push origin master
+  437  git pull origin master
+  438  git commit -m 'garden'
+  439  git status
+  440  git pull origin master
+  441  git push origin master
+  442  git log --oneline
+  443  git push origin master
+  444  git pull origin master
+  445  vim first_code.tf
+  446  vim first.tf
+  447  vim first.tf
+  448  history
+
+Ardenne@Libra MINGW64 ~
+$
